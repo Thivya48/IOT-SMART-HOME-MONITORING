@@ -1,0 +1,44 @@
+Library required to build the model:-
+
+
+✅Core ML & Data Libraries
+These are usually pre-installed or added in your Azure ML environment:
+numpy – Numerical operations
+pandas – Data preprocessing
+scikit-learn – Model training & evaluation
+matplotlib – Visualization
+seaborn – Statistical plots
+joblib – Save/load model
+
+
+✅ Anomaly Detection / AI
+For detecting abnormal temperature/motion:
+pyod – Anomaly detection models
+tensorflow / keras – (Optional for deep learning)
+
+
+✅ Azure & IoT Integration (from Portal / Pip)
+Used to connect with IoT Hub & deploy model:
+azure-iot-device – Connect IoT sensors to Azure IoT Hub
+azureml-core – Azure ML experiments & model mgmt
+azureml-train – Training jobs
+azureml-inference-server-http – Deployment
+azureml-interpret – Model explainability
+
+
+✅ Real-Time Data & Dashboard
+streamlit / dash – Live dashboard
+plotly – Interactive charts
+🔹 Where You Add These in Azure Portal
+Go to Azure Portal → Azure Machine Learning
+Open Compute Instance
+Open Jupyter Notebook / Terminal
+
+Install libs with:
+
+pip install numpy pandas scikit-learn matplotlib seaborn pyod azure-iot-device azureml-core streamlit
+
+🔹 IoT Hub Side (Azure Portal)
+Azure IoT Hub (for device data)
+Azure Event Hub / Stream Analytics (optional real-time stream)
+Azure Blob Storage / Data Lake (for dataset)
